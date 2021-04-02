@@ -25,3 +25,167 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+
+body{
+  background-color: whitesmoke;
+  font-family: 'Rubik';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.zbozi {
+  width: 670px;
+  height: 440px;
+  color: black;
+  position: absolute;
+  left: 300px;
+  top:120px;
+}
+
+.vizual {
+  width: 335px;
+  height: 440px;
+  color: white;
+  position: static;
+  left: 300px;
+  top:120px;
+  background-color: green;
+  border-radius: 10px 0 0 10px;
+  background-image: linear-gradient(#06d7c1, #50cc49);
+}
+
+.logo {
+  position: relative;
+  left: 30px;
+  top: 30px;
+}
+
+.slogan {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  left: 30px;
+  top: 30px;
+}
+
+.bota {
+  position: relative;
+  left: -90px;
+  top: 30px;
+}
+
+.cenovka {
+  color: white;
+  font-size: 28px;
+  font-weight: 500;
+  position: relative;
+  right: 30px;
+  bottom: 30px;
+  text-align: right;
+}
+
+.zaruka {
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: right;
+}
+
+/* pravá strana  */
+
+.detaily {
+  width: 335px;
+  height: 440px;
+  color: black;
+  position: absolute;
+  left: 335px;
+  top: 1px;
+  background-color: white;
+  border-radius: 0 10px 10px 0;
+}
+
+.nazev {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  left: 30px;
+  top: 10px;
+  text-transform: uppercase;
+}
+
+.produkt {
+  color: grey;
+  position: relative;
+  left: 30px;
+  font-size: 14px;
+}
+
+.popis {
+  position: relative;
+  left: 30px;
+  top: 10px;
+  font-size: 14px;
+  max-width: 275px;
+}
+
+.carka {
+  background-color: #06d7c1;
+  width: 275px;
+  height: 1px;
+  position: relative;
+  left: 30px;
+  top: 30px;
+}
+
+.parametr {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  left: 30px;
+  top: 30px;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+.velikosti {
+  position: relative;
+  top: 30px;
+  display: inline;
+}
+
+.vybrana {
+  color: orangered;
+  border-color: orangered;
+  border-style: solid;
+  border-radius: 45px;
+  padding: 10px;
+  border-width: 1px;
+}
+
+.akce{
+  position: relative;
+  left: 30px;
+  bottom: -30px;
+}
+
+.tlacitko {
+  position: relative;
+  top: 120px;
+  text-align: center;
+  bottom: -20px;
+  color: white;
+  border-radius: 5px;
+  border-color: orangered;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: orangered;
+  text-transform: uppercase;
+}
